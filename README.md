@@ -1,2 +1,4 @@
 # PythonHelper
-Console Application providing Python Help for datatypes, loops, and functions
+Python Helper is a Console Application providing Python Help for datatypes, loops, and functions.  It provides a brief description and examples for each.  The program's entrypoint is the gethelp.py file.
+
+
