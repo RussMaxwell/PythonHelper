@@ -1,3 +1,5 @@
+import pydoc
+
 def basics_for():
     r="""
         For Loop
@@ -67,7 +69,7 @@ def basics_for():
                 Russ
 
     """
-    print(r)
+    pydoc.pager(r)
 
 def basics_while():
     r="""
@@ -92,4 +94,4 @@ def basics_while():
         process(students)
           
     """
-    print(r)
+    pydoc.pager(r)

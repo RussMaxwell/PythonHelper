@@ -1,3 +1,5 @@
+import pydoc
+
 def basics():
     cr="""
         #######################################
@@ -94,5 +96,5 @@ def basics():
         output: [('first', 'russ'), ('last', 'max')]
     
     """
-    print(cr)
+    pydoc.pager(cr)
 

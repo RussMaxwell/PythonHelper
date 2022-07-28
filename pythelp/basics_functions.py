@@ -1,3 +1,5 @@
+import pydoc
+
 def basics():
     r="""
         Rule 1: Functions are declared via the def keyword
@@ -57,7 +59,7 @@ def basics():
         output: 10
 
     """
-    print(r)
+    pydoc.pager(r)
 
 
 def dynamicarguments():
@@ -86,7 +88,7 @@ def dynamicarguments():
         Note 2: If you would want to use dynamic # of keyword arguments, you would use **kwargs as the parameter.
 
     """
-    print(r)
+    pydoc.pager(r)
 
 
 def keywordarguments():
@@ -130,4 +132,4 @@ def keywordarguments():
         output: Hello John Smith!
     
     """
-    print(r)
+    pydoc.pager(r)

@@ -1,3 +1,5 @@
+import pydoc
+
 def basics():
     r="""
         Rule 1: Dictionaries are mutable (they can be changed after creation)
@@ -110,7 +112,6 @@ def basics():
         output: {'Russ': 45, 'Jon': 46, 'Mike': 49}
 
     """
-    print(r)
-
+    pydoc.pager(r)
 
 

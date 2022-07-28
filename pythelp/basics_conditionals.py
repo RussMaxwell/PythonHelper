@@ -1,3 +1,5 @@
+import pydoc
+
 def basics():
     r="""
         ## Conditionals - if - elif - else ##
@@ -58,5 +60,6 @@ def basics():
 
         output: The result is 4
     """
-    print(r)
+    #print(r)
+    pydoc.pager(r)
 

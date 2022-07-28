@@ -1,3 +1,5 @@
+import pydoc
+
 def basics():
     r="""
         Rule 1: Tuples are immutable (they cannot be changed after creation)
@@ -83,6 +85,6 @@ def basics():
                         Please see list conversions section for more details.
 
     """
-    print(r)
+    pydoc.pager(r)
 
     

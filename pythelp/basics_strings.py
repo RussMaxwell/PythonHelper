@@ -1,3 +1,5 @@
+import pydoc
+
 def basics():
     crstr = """
     
@@ -123,5 +125,6 @@ def basics():
        output: hi mom
     
     """
-    print(crstr)
+    pydoc.pager(crstr)
+    
 

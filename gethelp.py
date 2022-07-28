@@ -1,3 +1,4 @@
+#Version 1.2#
 import pythelp.basics_functions as function_help
 import pythelp.basics_conditionals as conditional_help
 import pythelp.basics_lists as list_help
@@ -22,7 +23,7 @@ def menu():
         5. For Loop
         6. While Loop
         7. Conditionals (if..else)
-        8. Functions
+        8. Functions7
         9. Dynamic Arguments
         10. Keyword Arguments
         
