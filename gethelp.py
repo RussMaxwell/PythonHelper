@@ -66,27 +66,30 @@ def decide(res):
         function_help.keywordarguments()
 
 
-while True:
-    menu()
-    user_input = input("Enter Number: ")
+def main():
+    while True:
+        menu()
+        user_input = input("Enter Number: ")
     
-    try:
-        official = int(user_input)
+        try:
+            official = int(user_input)
 
-        if official == 0:
-            break
+            if official == 0:
+                break
 
-        elif official in range(1,11):
-            decide(official)
-            input("Press any key to go back to Menu")
+            elif official in range(1,11):
+                decide(official)
+                input("Press any key to go back to Menu")
     
-        else:
-            print("You entered an invalid number, try again")
-            input("Press any key to continue")
-            menu()
+            else:
+                print("You entered an invalid number, try again")
+                input("Press any key to continue")
+                menu()
     
+        except ValueError:
+            print("You entered an invalid key. Try Again")    
+            input("Press any key to continue")    
 
-    except ValueError:
-        print("You entered an invalid key. Try Again")    
-        input("Press any key to continue")    
-        
+
+if __name__ == '__main__':
+    main()
