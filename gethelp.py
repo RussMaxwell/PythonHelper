@@ -23,7 +23,7 @@ def menu():
         5. For Loop
         6. While Loop
         7. Conditionals (if..else)
-        8. Functions7
+        8. Functions
         9. Dynamic Arguments
         10. Keyword Arguments
         
