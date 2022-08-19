@@ -1,5 +1,5 @@
 #Date 8/19/22 - Version 1.2#
-#random comment#
+
 import pythelp.basics_functions as function_help
 import pythelp.basics_conditionals as conditional_help
 import pythelp.basics_lists as list_help
